@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width= , initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Discord</title>
     <link rel="stylesheet" href="css/default.css">
     <link rel="stylesheet" href="css/style.css">
@@ -57,30 +61,60 @@
     <main>
         <!-- main -->
         <div class="container-centered">
-            <section class="container1">
-                <div class="image-content1"></div>
-                <div class="text-content1"></div>
-            </section>
 
             <section class="container1">
-                <div class="text-content1"></div>
-                <div class="image-content1"></div>
+                <div id="style-image1" class="image-content1"></div>
+                <div class="text-content1">
+                    <h2>Un luogo a invito  con tutto lo spazio necessari per parlare</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti asperiores totam minima illum, nobis saepe corporis suscipit id magnam quia incidunt accusantium laboriosam. Magnam veniam odio, eveniet nemo reiciendis consectetur!</p>
+                </div>
             </section>
 
-            <section class="container1">
-                <div class="image-content1"></div>
-                <div class="text-content1"></div>
+            <div class="wawe-container">
+                <img src="img/wave.svg" alt="wawe">
+            </div>
+
+            <section class="container1" id="container-back">
+                <div class="text-content1">
+                    <h2>Dove trovarsi è facile</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi neque magni sapiente perferendis cumque nemo ratione eligendi iure asperiores? Minima numquam tempora, nobis eum nihil praesentium officiis quaerat commodi dignissimos.</p>
+                </div>
+                <div id="style-image2" class="image-content1"></div>
             </section>
 
-            <section class="container3">
-                <div class="text-content3"></div>
-                <div class="image-content3"></div>
+            <div class="wawe-container2">
+                <img src="img/wave.svg" alt="wawe">
+            </div>
+
+            <section class="container2">
+                <div id="style-image3" class="image-content1"></div>
+                <div  class="text-content1">
+                    <h2>Da pochi a un fandom</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique id fuga minima culpa voluptate? Magnam sunt debitis fuga doloremque tenetur, at illo perferendis, soluta rerum sit, doloribus corporis laudantium. Quis.</p>
+                </div>
             </section>
 
-            <section class="container5">
-                <div id="final-text"></div>
-                <div id="download-button"></div>
-            </section>      
+            <div class="wawe-container">
+                <img src="img/wave.svg" alt="">
+            </div>
+
+            <section class="container3" >
+                <div class="text-content4">
+                    <h2 class="text-center">Tecnologia affidabile per tenersi in contatto</h2>
+                    <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. In officiis deleniti blanditiis iure illo veniam ipsa doloribus voluptatum sapiente nam delectus, temporibus itaque quam obcaecati minima id cum? Nemo, iure!</p>
+                </div>
+                <div id="style-image4" class="image-content4"></div>
+            </section>
+
+            <div class="container5">
+                <div id="final-text">
+                    <strong>Pronto a iniziare la tua avventura?</strong>
+                </div>
+                <div id="download-button">
+                    <button id="btn3" class="radius-button">&darr; Scarica per Mac</button>
+                </div>
+            </div>
+
         </div>
         <!-- main -->
     </main>
@@ -93,64 +127,83 @@
             <!-- final list -->
             <div id="container-list">
 
-                <div id="social-links"></div>
+                <div id="social-links">
+                    <h3>Il tuo posto per parlare</h3>
+                    <div id="img-lang">
+                        <img src="img/ita.png" alt="language it">
+                        <select id="select-style" name="option"> 
+                            <option value="" disabled selected>Italiano</option>
+                        </select>
+                        <div class="social-logo">
+                            <i class="fa fa-facebook"></i>
+                            <i class="fa fa-twitter"></i>
+                            <i class="fa fa-youtube"></i>
+                            <i class="fa fa-instagram"></i>
+                        </div>
+                    </div>
+                </div>
+                
                 <div class="list1">
                     <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                        <li><strong>Prodotto</strong></li>
+                        <li>Link</li>
+                        <li>Link</li>
+                        <li>Link</li>
+                        <li>Link</li>
+                        <li>Link</li>
                     </ul>
                 </div>
+
                 <div class="list1">
                     <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                        <li><strong>Compagnia</strong></li>
+                        <li>Link</li>
+                        <li>Link</li>
+                        <li>Link</li>
+                        <li>Link</li>
+                        <li>Link</li>
                     </ul>
                 </div>
+
                 <div id="list2">
                     <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                        <li><strong>Risorse</strong></li>
+                        <li>Link</li>
+                        <li>Link</li>
+                        <li>Link</li>
+                        <li>Link</li>
+                        <li>Link</li>
+                        <li>Link</li>
+                        <li>Link</li>
+                        <li>Link</li>
+                        <li>Link</li>
+                        <li>Link</li>
+                        <li>Link</li>
                     </ul>
                 </div>
+
                 <div class="list1">
                     <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                        <li><strong>Norme</strong></li>
+                        <li>Link</li>
+                        <li>Link</li>
+                        <li>Link</li>
+                        <li>Link</li>
+                        <li>Link</li>
                     </ul>
                 </div>
             </div>
         <!-- /final list -->
 
-
+         <!-- footer logo -->
             <div id="footer-flex">
-    
-                <div class="logo"></div>
-                <div id="login-final"></div>
-
+                <div class="logo" id="logo-footer"></div>
+                <div id="login-final">
+                    <button class="radius-button" id="btn4">Registrati</button>
+                </div>
             </div>
-            
+         <!-- /footer logo -->
+
         </div>
         
 

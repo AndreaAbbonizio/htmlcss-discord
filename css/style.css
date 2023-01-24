@@ -3,6 +3,9 @@
     margin: 0 auto;
 }
 
+body{
+    font-family: 'Roboto', sans-serif;
+}
 
 
 /* navbar */
@@ -32,7 +35,6 @@ nav{
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    /* test */
 }
 
 
@@ -73,11 +75,11 @@ nav{
     border-radius: 18px;
     border-style: none;
 }
+/* navbar */
 
 
 
 /* header */
-
 header{
     background-image: url(/img/jumbo.png);
     background-size: cover;
@@ -128,7 +130,7 @@ header{
     background-color: #23272a;
     color: white;
 }
-
+/* /header */
 
 
 
@@ -137,7 +139,13 @@ header{
 .container1{
     display: flex;
     justify-content: space-around;
-    padding-bottom: 250px;
+    padding-bottom: 120px;
+}
+
+.container2{
+    display: flex;
+    justify-content: space-around;
+    padding: 120px  0;
 }
 
 
@@ -147,6 +155,8 @@ header{
     gap: 40px;
     align-items: center;
     padding-bottom: 120px;
+    background-color: #b3b3b3;
+    margin-top: -4px;
 }
 
 .container5{
@@ -155,57 +165,94 @@ header{
     align-items: center;
     gap: 40px;
     padding-bottom: 110px;
+    background-color: #b3b3b3;
 }
 
 
 .image-content1{
     width: 530px;
     height: 390px;
-    background-color: yellow;
+}
+
+#style-image1{
+    background-image: url(/img/item1.svg);
+    background-size: cover;
+}
+
+h2{
+    font-size: xx-large;
+    padding: 30px 0;
 }
 
 .text-content1{
     width: 370px;
     height: 380px;
-
-    background-color: aqua;
+    text-align: initial;
 }
 
-.text-content2{
-    width: 340px;
-    height: 260px;
-    background-color: darkblue;
+
+.wawe-container img{
+    opacity: 0.3;
 }
 
-.image-content2{
-    width: 550px;
-    height: 370px;
-    background-color: red;
+.wawe-container2 img{
+    opacity:0.3;
+    rotate: 180deg;
 }
 
-.text-content3{
+
+#container-back{
+    background-color: #b3b3b3;
+    margin-top: -4px
+}
+
+
+#style-image2{
+    background-image: url(/img/item2.svg);
+    background-size: cover;
+}
+
+#style-image3{
+    background-image: url(/img/item3.svg);
+    background-size: cover;
+}
+
+#style-image4{
+    background-image: url(/img/item4-big.svg);
+    background-size: cover;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-content4{
     width: 880px;
     height: 135px;
-    background-color: green;
 }
 
-.image-content3{
+.image-content4{
     width: 960px;
     height: 500px;
-    background-color: red;
 }
 
-#final-text{
-    width: 420px;
+#final-text{  
+    text-align: center;
     height: 30px;
-    background-color: blue;
 }
 
 #download-button{
     width: 175px;
     height: 45px;
-    background-color: yellowgreen;
 }
+
+
+#btn3{
+    background-color: #7289da;
+    color: white;
+}
+/* /main */
+
 
 
 
@@ -221,8 +268,9 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    padding-top: 2em;
     padding-bottom: 50px;
-    border-bottom: 2px solid blue;
+    border-bottom: 2px solid rgb(30, 143, 235);
 }
 
 #back-footer ul{
@@ -234,22 +282,47 @@ header{
 #social-links{
     width: 214px;
     height: 140px;
-    background-color: yellow;
+   
 }
 
+#social-links h3{
+    color: #7188da;
+}
+
+#img-lang{
+    padding-top: 1em;
+}
+
+#img-lang img{
+    height: 1em;
+}
+
+#select-style{
+    border-style: none;
+    color: white;
+    background-color: #23272a;
+}
 
 .list1 {
     width: 100px;
     height: 175px;
-    background-color: green;
+    
 }
 
 
+footer div ul li strong{
+    color: #7188da;
+}
+
+footer div ul li{
+    color: white;
+    padding: 5px 0;
+}
 
 #list2{
     width: 110px;
     height: 345px;
-    background-color: red;
+   
 }
 
 
@@ -259,12 +332,29 @@ header{
 #footer-flex{
     display: flex;
     justify-content: space-between;
-    padding: 2em 1em;
+}
+.social-logo{
+    color: white;
+    padding: 15px 0;
 }
 
+.social-logo i{
+    padding-right: 8px;
+}
 
 #login-final{
+    padding: 2em;
+    
+}
+#btn4{
+    background-color: #7289da;
+    color: white;
     width: 75px;
     height: 30px;
-    background-color: darkgrey;
 }
+
+#logo-footer{
+    margin: 1em; 
+}
+
+/* /footer */
